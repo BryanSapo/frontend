@@ -1,0 +1,66 @@
+.TemiControlBtn{
+    display: block;
+    text-align: center;
+    margin-top: 100px;;
+    border-radius: 15px;
+    width: 60vw;
+}
+.TemiControlBtn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+select,input{
+    box-sizing: border-box;
+}
+.input_temi{
+    box-sizing: border-box;
+    color: #000;
+    border: solid;    
+    margin:1vh;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.input_temi:hover{
+    cursor: pointer;
+    /* border-color: green; */
+    /* background-color: lightgreen; */
+}
+button{
+    border: solid;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+    background-color:grey;
+}
+button:active{
+    background-color:darkgray;
+}
+.view_container{
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 100%;
+}
+.left{
+    /* background-color: aqua; */
+    width: 20%;
+    margin:1vh;
+}
+.right{
+    /* background-color:blue; */
+    width: 80%;
+}
+.submit_action{
+    box-sizing: border-box;
+    margin: 1vh;
+    width: 100%;
+}
+.xy-controller{
+    margin: 1vh;
+    width: 30%;
+}

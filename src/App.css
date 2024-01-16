@@ -1,38 +1,104 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: monospace;
+  height: 100vh;
+  background-color: #F0F0F0;
+}
+body{
+  /* user-select: none; */
+  padding: 0px;
+  /* padding-top: 1vh; */
+  margin: 0px;
+  color: black;
+}
 .App {
+  margin: 0px;
+  padding: 0px;
+  
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.holder{
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  border: solid;
+  width: 60vw;
+  height:auto;
+  border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper{
+  width: 100%;
+  padding: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.TemiControlBtn{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: fit-content;
+  padding: 30px;
+  border: solid;
 }
-
-.App-link {
-  color: #61dafb;
+.outer{
+  margin-top: 70px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div_i{
+  font-weight:lighter;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  border-bottom: solid;
+}
+p{
+  color: black;
+}
+.tab_h{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin-top: 15px;
+}
+.tab_title{
+	height: 100%;
+	text-align: left;
+}
+.tab_dep{
+	text-align: right;
+}
+.tab_upper{
+	height: 100%;
+	margin: 0px;
+	padding: 5px;
+	/* margin-bottom: -5%; */
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px 15px 0 0;
+	background-color:#B0B0B0;
+}
+.tab_lower{
+	height: 100%;
+	background-color: #E0E0E0;
+	margin: 0px;
+	padding: 15px;
+	border-radius: 0 0 15px 15px;
+}
+.tab_btn{
+	background-color: #B0B0B0;
+	margin: auto;
+	width: 5vw;
+}
+.setup{
+  position: absolute;
+  top:0;
+  border: none;
+  width: 35px;
+  height: 2px;
+}
+.setup:hover{
+  height: 10px;
+  scale: 2;
 }
